@@ -9,7 +9,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/cycomachead/hubot-meme.git"
+    "url": "git://github.com/brianhays/hubot-meme.git"
   },
 
   "bugs": {
