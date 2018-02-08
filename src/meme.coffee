@@ -50,7 +50,7 @@ module.exports = (robot) ->
     memeGenerator msg, 'NryNmg', 'Y U NO', msg.match[1]
 
   robot[listen_func] /aliens guy (.+)/i, id: 'meme.aliens', (msg) ->
-    memeGenerator msg, 'sO-Hng', '', msg.match[1]
+    memeGenerator msg, 'a1InNw', '', msg.match[1]
 
   robot[listen_func] /iron price (.+)/i, id: 'meme.iron-price', (msg) ->
     memeGenerator msg, 'q06KuA', msg.match[1], 'Pay the iron price'
