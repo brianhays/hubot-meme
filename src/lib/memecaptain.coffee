@@ -41,9 +41,9 @@ createPostData = (imageID, lowerText, upperText) ->
   return JSON.stringify(data)
 
 module.exports = (msg, imageID, upperText, lowerText) ->
-  MEME_CAPTAIN = 'http://memecaptain.com/gend_images'
+  MEME_CAPTAIN = 'https://pd-memecaptain.herokuapp.com/gend_images'
   baseError = 'Sorry, I couldn\'t generate that meme.'
-  reasonError = 'Unexpected status from memecaptain.com:'
+  reasonError = 'Unexpected status from pd-memecaptain:'
 
   processResult = (err, res, body) ->
     return msg.reply "#{baseError} #{err}" if err
