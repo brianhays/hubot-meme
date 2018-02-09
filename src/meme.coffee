@@ -101,7 +101,7 @@ module.exports = (robot) ->
     memeGenerator msg, 'uIZe3Q', msg.match[1], msg.match[2]
 
   robot[listen_func] /WHAT IF I TOLD YOU (.*)/i, id: 'meme.told-you', (msg) ->
-    memeGenerator msg, 'xbHslQ', 'WHAT IF I TOLD YOU', msg.match[1]
+    memeGenerator msg, 'fWle1w', 'WHAT IF I TOLD YOU', msg.match[1]
 
   robot[listen_func] /(WHY THE (FUCK|FRIEND)) (.*)/i, id: 'meme.why-the-friend', (msg) ->
     memeGenerator msg, 'z8IPtw', msg.match[1], msg.match[3]
